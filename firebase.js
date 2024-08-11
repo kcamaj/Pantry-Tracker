@@ -1,7 +1,7 @@
 import { initializeApp } from 'firebase/app';
 import { getFirestore } from 'firebase/firestore';
 const firebaseConfig = {
-    apiKey: "AIzaSyDKCju2UPKQD5ScSOuxTSnwBCATmHjjsbY",
+    apiKey: "REVOKED",
     authDomain: "pantry-tracker-9f38b.firebaseapp.com",
     projectId: "pantry-tracker-9f38b",
     storageBucket: "pantry-tracker-9f38b.appspot.com",
