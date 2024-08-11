@@ -85,14 +85,12 @@ body {
   overflow-x: hidden;
 }
 
+/* globals.css */
 body {
+  margin: 0;
+  font-family: 'Play', sans-serif; /* Ensure font family is set */
+  background: linear-gradient(135deg, #e0eafc, #cfdef3); /* Modern gradient background */
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
 }
 
 a {
@@ -105,3 +103,4 @@ a {
     color-scheme: dark;
   }
 }
+
